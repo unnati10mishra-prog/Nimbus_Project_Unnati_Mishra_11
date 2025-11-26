@@ -18,7 +18,7 @@ void summaryReport(transaction *array, int size) {
     int car = 0, truck = 0, bus = 0, bike = 0;
     float totalToll = 0;
     for (int i = 0; i < size; i++) {
-        if (strcmp(array[i].vehicleType, "car") == 0) car++;
+        if (strcmp(array[i].vehicle_type, "car") == 0) car++;
         else if (strcmp(array[i].vehicle_type, "Truck") == 0) truck++;
         else if (strcmp(array[i].vehicle_type, "bus") == 0) bus++;
         else if (strcmp(array[i].vehicle_type, "bike") == 0) bike++;

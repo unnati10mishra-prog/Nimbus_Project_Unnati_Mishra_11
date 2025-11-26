@@ -8,17 +8,16 @@
 
 int main(){
     int capacity = 10, size = 0;
-    Transaction *array = malloc(capacity*sizeof(Transaction));
+    transaction *array = malloc(capacity*sizeof(transaction));
     if(!array){
         printf("Initial allocation failed ! \n");
         return 1;
     }
-    // Load previous transactions from file 
     size = loadTransactions(&array , &capacity);
 
     int choice;
     do{
-        printMenu();
+        printmenu();
         if(!safeScanInt(&choice)) continue;
         switch(choice){ 
             case 1:

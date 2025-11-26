@@ -15,7 +15,7 @@ float calculate_toll(const char *type, const char *e_time){
     rate=30;
 
     int hour;
-    sscanf(e_time,"%*d-%*d-%*d %d:%*d",&hour);
+    scanf(e_time,"%*d-%*d-%*d %d:%*d",&hour);
     if(hour>=22||hour<6)
     rate*=0.8;// off peak discount
     return rate;
@@ -29,7 +29,7 @@ void reg_vehicle(transaction **array,int *size,int *capacity){
 
     time_t now=time(NULL);
     struct tm *tm_info=localtime(&now);
-    strftime(t.e_time,sizeof(t.e_time),"%Y-%m-%d %H:%M,tm_info");
+    strftime(t.e_time, sizeof(t.e_time), "%Y-%m-%d %H:%M", tm_info);
     t.toll_paid=calculate_toll(t.vehicle_type,t.e_time);
 
     if(*size==*capacity){
