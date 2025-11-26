@@ -14,7 +14,7 @@ int main(){
         return 1;
     }
     // Load previous transactions from file 
-    size = laodTransactions(&array , &capacity);
+    size = loadTransactions(&array , &capacity);
 
     int choice;
     do{
@@ -22,7 +22,7 @@ int main(){
         if(!safeScanInt(&choice)) continue;
         switch(choice){ 
             case 1:
-            registerVehicle(&array , &size , &capacity);
+            reg_vehicle(&array , &size , &capacity);
             break;
             case 2:
             searchTransaction(array,size);
