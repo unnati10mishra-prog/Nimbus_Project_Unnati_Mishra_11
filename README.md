@@ -34,10 +34,15 @@ In Terminal (Program Directory)
 ## Example Usage
 
 - Register: Enter number (e.g. 'UP101421'), type ('car', 'bike', etc), system shows toll.
-- ![WhatsApp Image 2025-11-29 at 14 43 00_f66c2e4e](https://github.com/user-attachments/assets/75b0a373-bb31-4cc3-b93e-3cfa0feb09c3)
+![WhatsApp Image 2025-11-29 at 14 43 00_f66c2e4e](https://github.com/user-attachments/assets/75b0a373-bb31-4cc3-b93e-3cfa0feb09c3)
   
 - Search: Enter vehicle number, see details.
-- ![WhatsApp Image 2025-11-29 at 14 43 00_69608da7](https://github.com/user-attachments/assets/5964966d-8937-44bc-abd1-af3fdcceec92)
+![WhatsApp Image 2025-11-29 at 14 43 00_69608da7](https://github.com/user-attachments/assets/5964966d-8937-44bc-abd1-af3fdcceec92)
 
 - Summary: Shows daily toll and vehicle stats
-- ![WhatsApp Image 2025-11-29 at 14 43 00_49344a24](https://github.com/user-attachments/assets/2a8a7419-2a5d-47a0-b52d-5a886fa2dae7)
+![WhatsApp Image 2025-11-29 at 14 43 00_49344a24](https://github.com/user-attachments/assets/2a8a7419-2a5d-47a0-b52d-5a886fa2dae7)
+
+---
+
+*Author: Unnati, Shivesh, Divyanshu, Akshat*
+*Purpose: Demo of file I/O and dynamic memory in C*
